@@ -18,8 +18,8 @@ const facts = [
       ]
 
 function johnLennonFacts(facts) {
-  var lpedia = []
-  var j = 0
+  let lpedia = []
+  let j = 0
   while (j <= 3) {
     lpedia.push(`${facts[j]}!!!`)
     j++
