@@ -21,7 +21,7 @@ const facts = [
 
 function johnLennonFacts(facts) {
   let lpedia = []
-  let j = 1
+  let j = 0
   while (j <= 3) {
     lpedia.push(`${facts[j]}!!!`)
     j++
