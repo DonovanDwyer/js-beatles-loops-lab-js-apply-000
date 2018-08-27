@@ -11,6 +11,7 @@ function theBeatlesPlay(musician, instrument) {
 }
 
 const facts = [
+        "",
         "He was the last Beatle to learn to drive",
         "He was never a vegetarian",
         "He was a choir boy and boy scout",
@@ -19,8 +20,8 @@ const facts = [
 
 function johnLennonFacts(facts) {
   let lpedia = []
-  let j = 0
-  while (j <= 3) {
+  let j = 1
+  while (j <= 4) {
     lpedia.push(`${facts[j]}!!!`)
     j++
   }
