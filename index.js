@@ -33,7 +33,7 @@ function iLoveTheBeatles(num) {
   var k = 0;
   do {
     love.push("I love the Beatles!");
-    k + num;
+    k += num;
   }
   while (k < 15);
   return love;
