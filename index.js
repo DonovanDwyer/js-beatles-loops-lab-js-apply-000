@@ -30,11 +30,11 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(num) {
   var love = [];
-  var k = 0;
+  var k = num;
   do {
     love.push("I love the Beatles!");
-    k += num;
+    k++;
   }
-  while (k < num && k < 15);
+  while (k < 15);
   return love;
 }
