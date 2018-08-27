@@ -1,13 +1,13 @@
-var musician = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"]
-var instrument = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"]
+var musician = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
+var instrument = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 
 function theBeatlesPlay(musician, instrument) {
-  var combination = []
+  var combination = [];
   for (var i = 0; i <= 3; i++) {
     combination.push(musician[i] + " plays " +
-    instrument[i])
+    instrument[i]);
   }
-  return combination
+  return combination;
 }
 
 const facts = [
@@ -15,26 +15,26 @@ const facts = [
         "He was never a vegetarian",
         "He was a choir boy and boy scout",
         "He hated the sound of his own voice"
-      ]
+      ];
 
 function johnLennonFacts(facts) {
-  var lpedia = []
-  var j = 0
+  var lpedia = [];
+  var j = 0;
   while (j < facts.length) {
     lpedia.push(`${facts[j]}!!!`)
     j++
-  }
-  return lpedia
+  };
+  return lpedia;
 }
 
 
 function iLoveTheBeatles(num) {
-  var love = []
-  var k = 0
+  var love = [];
+  var k = 0;
   do {
-    love.push("I love the Beatles!")
-    k += num
+    love.push("I love the Beatles!");
+    k += num;
   }
-  while (k <= num)
-  return love
+  while (k <= num);
+  return love;
 }
